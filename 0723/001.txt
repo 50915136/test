@@ -1,1 +1,88 @@
 資料結構
+Data structures is concerned with the representation and manipulation of data
+All programs manipulate data
+So, all programs represent data in some way
+Data manipulation requires an algorithm
+
+Data Abstraction
+The separation between the specification of a data object and its implementation
+Data Encapsulation (or Information Hiding)
+The concealing of the implementation details of a data object from the outside world
+Separating data object’s code detail from outside 
+
+
+Structure
+n. (名詞 noun)
+結構;構造;組織[U][C]
+We know a lot about the structure of genes now.
+如今我們對基因的結構有了較多的了解。
+構造體;建築物[C]
+We visited the museum, a steel and glass structure.
+我們參觀了博物館,它是一座鋼和玻璃的建築物。
+vt. (及物動詞 transitive verb)
+構造;組織;建造
+They structure their communication to meet the needs of the client.
+他們建立通訊系統以滿足客戶的需要。
+
+
+
+Representation
+n. (名詞 noun)
+代表,代理;代表權[U]
+Our company has no representation in Africa.
+本公司在非洲沒有代理機構。
+表示,表現;表述[U][C]
+a symbolic representation
+象徵
+圖畫,圖像;雕像;塑像[C]
+a representation of Confucius
+孔子畫像
+陳述;抗議[P]
+演出,扮演[C]
+
+
+
+
+Manipulation
+n. (名詞 noun)
+操作,運用
+Some people can put back a twisted joint by careful manipulation.
+有些人小心推拿就能把扭脫的關節矯正過來。
+操縱,控制
+adroit manipulation of stocks
+對股票的巧妙操縱
+竄改,做手腳
+
+
+Algorithm
+n. (名詞 noun)
+【數】互除法;演算法;規則系統
+
+
+
+
+1-1-13
+An algorithm is a finite set of instructions
+If followed, accomplishes a particular task
+All algorithm must satisfy the following criteria:
+
+
+Determining the exact step count of a program can prove to be an exceedingly difficult task
+
+So we use asymptotic notation to analysis the complexity of an algorithm
+
+Asymptotic notation consider the case of the processing data scope approaching infinity
+確定程式的確切步數可能是一項極為困難的任務
+
+所以我們使用漸近符號來分析演算法的複雜度
+
+漸近符號考慮處理資料範圍接近無窮大的情況
+
+
+
+
+
+Definition [Big “Oh”]
+f(n)=O(g(n)) iff there exist positive constants c and n0 such that f(n)≦c g(n) for all n, n ≧n0
+f of n is big-oh of g of n, denoted by Ο
+g(n) is a upper bound on the value of f(n) for all for all n, n ≧n0
